@@ -1,5 +1,13 @@
-#titulo_principal:hover{
-    color: brown;
+body{
+    background-color:azure;
+}
+
+#titulo_principal{
+    
+    display: flex;
+    width: 100px;
+    height: 100px;
+ 
 }
 
 #panel_opciones{
