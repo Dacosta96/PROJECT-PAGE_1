@@ -21,3 +21,36 @@
 
     background-color:beige;
 }
+
+#prueba{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+ 
+}
+#rojo{
+    width: 30px;
+    height: 30px;
+background-color: red;
+position: absolute;
+margin-left: 35px;
+margin-top: 25px;
+z-index: 2;
+}
+#blanco{
+    width: 30px;
+    height: 30px;
+background-color: white;
+position: absolute;
+margin: 15px;
+z-index: 3;
+}
+#azul{
+    width: 30px;
+    height: 30px;
+background-color: blue;
+position: absolute;
+margin-left: 25px;
+z-index: 1;
+}
