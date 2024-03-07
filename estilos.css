@@ -1,4 +1,17 @@
-#titulo_principal{
-color: aqua;
+#titulo_principal:hover{
+    color: brown;
+}
 
+#panel_opciones{
+    display: flex;
+    justify-content: space-around;
+    border: 1px black;
+}
+
+.item{
+    width: 100px;
+    height: 25px;
+    background-color: aqua;
+    border: 3px black;
+    
 }
